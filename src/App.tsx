@@ -1,11 +1,13 @@
 import './App.css'
 import { Counter } from './bases/Counter'
+import { CounterBy } from './bases/CounterBy'
 
 function App() {
 
   return (
     <>
-      <Counter />
+      <Counter initialValue={15} />
+      <CounterBy />
     </>
   )
 }
